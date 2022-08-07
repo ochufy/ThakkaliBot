@@ -23,5 +23,5 @@ def tweet(api, message, image_path):
 api = api()
 while(True):
     tweet(api, "Thakkali", r"tomoto.jpg")
-    time.sleep(86400)
     print("bot posted a pic")
+    time.sleep(86400)
