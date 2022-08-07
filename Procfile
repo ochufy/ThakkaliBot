@@ -1,1 +1,1 @@
-bot: python thakkalibot.py
+worker: python thakkalibot.py
