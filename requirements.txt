@@ -1,0 +1,3 @@
+os
+tweepy
+python-dotenv
