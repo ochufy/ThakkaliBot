@@ -1,6 +1,7 @@
 import tweepy
 from os import getenv
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 
@@ -20,5 +21,7 @@ def tweet(api, message, image_path):
     api.update_status_with_media(message, image_path)
 
 api = api()
-print("bot running")
-tweet(api, "Thakkali", r"tomoto.jpg")
+while(True):
+    time.sleep(20)
+    tweet(api, "Thakkali", r"tomoto.jpg")
+    print("bot posted a pic")
