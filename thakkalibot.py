@@ -20,4 +20,5 @@ def tweet(api, message, image_path):
     api.update_status_with_media(message, image_path)
 
 api = api()
+print("bot running")
 tweet(api, "Thakkali", r"tomoto.jpg")
